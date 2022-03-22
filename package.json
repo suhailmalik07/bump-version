@@ -1,0 +1,20 @@
+{
+  "name": "bump-version",
+  "version": "1.0.0",
+  "description": "Bump version of current branch when raised PR to specific branch ",
+  "main": "dist/main.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "suhailmalik07",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^17.0.22",
+    "typescript": "^4.6.2"
+  },
+  "dependencies": {
+    "@actions/core": "^1.6.0",
+    "@actions/github": "^5.0.0"
+  }
+}
